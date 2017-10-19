@@ -41,6 +41,13 @@ function Scene_Credits(){
     authorText.x = Game.width / 2 - 240;
     authorText.y = Game.height / 2 + 29;
     c[1].addChild(authorText);
+  
+    var translatorText = new PIXI.Text(textStrings["Translator"], {font: "36px Times", fill:"#FFFFFF", align: "left"});
+    translatorText.anchor.x = 0.0;
+    translatorText.anchor.y = 0.5;
+    translatorText.x = Game.width / 2 - 240;
+    translatorText.y = Game.height / 2 + 150;
+    c[1].addChild(translatorText);
     
     var playtestersText = new PIXI.Text(textStrings["manyThanks"], {font: "44px Times", fill:"#FFFFFF", align: "right"});
     playtestersText.anchor.x = 1.0;

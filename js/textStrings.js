@@ -476,6 +476,7 @@ var textStrings_HR = {
     // (credits0001.png)
     "createdBy"          : "napravio" ,
     "NickyCase"          : "Nicky Case" ,
+    "Translator"         : "(preveo Hrvoje Šimić)" ,
     
     // (credits0002.png)
     "manyThanks"         : "zahvaljujem testerima:" ,
