@@ -4,6 +4,7 @@ Game.addToManifest({
 	
 	facebook: "sprites/postcredits/facebook.png",
 	twitter: "sprites/postcredits/twitter.png",
+    varljiv: "sprites/postcredits/varljiv.png",
 
 	end_button: "sprites/postcredits/end_button.json"
 
@@ -71,11 +72,11 @@ function Scene_Post_Post_Credits(){
 	});
 
 	// _addSocialButton
-	var _addSocialButton = function(x, icon, callback){
+	var _addSocialButton = function(x, y, icon, callback){
 
 		var button = MakeSprite(icon);
 		button.x = x;
-		button.y = 342;
+		button.y = y;
 		button.anchor.x = button.anchor.y = 0.5;
 		cont.addChild(button);
 
@@ -98,15 +99,19 @@ function Scene_Post_Post_Credits(){
 	};
 	var text = encodeURIComponent(window.SHARE_TEXT);
 	var url = encodeURIComponent(window.SHARE_URL);
-	_addSocialButton(575, "facebook", function(){
+	_addSocialButton(575, 342, "facebook", function(){
 		var href = "https://www.facebook.com/sharer/sharer.php?u="+url+"&t="+text;
 		window.open(href);
 	});
-	_addSocialButton(610, "twitter", function(){
-		var href = "https://twitter.com/intent/tweet?text="+text+"%20"+url+"&via=ncasenmare";
+	_addSocialButton(610, 342, "twitter", function(){
+		var href = "https://twitter.com/intent/tweet?text="+text+"%20"+url+"&via=varljiv";
 		window.open(href);
 	});
-
+    _addSocialButton(470, 480, "varljiv", function(){
+		var href = "http://www.varljiv.org";
+		window.open(href);
+	});
+  
 	// CURSOR
     var cursor = new Cursor(self);
     var g = cursor.graphics;

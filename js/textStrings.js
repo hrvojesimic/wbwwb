@@ -55,7 +55,7 @@ var textStrings_EN = {
     // (bg_preload.png) Preload screen
     "playingTime"        : "playing time: 5 minutes" ,
     "warning"            : "warning: the following program\ncontains scenes of snobbery,\nrudeness & mass murder.\nviewer discretion is advised." ,
-    
+
     // (cam-instructions.png) Camera Instructions
     "pointAndClick"      : "POINT & CLICK" ,
     
@@ -413,5 +413,106 @@ var textStrings_ES = {
     "misatrributed"      : "(mal atribuido)" ,
 };
 
+var textStrings_HR = {
+    // Act 1
+    "niceHat"              : "FORA ŠEŠIR"                                            ,
+    "outtaHere"            : "aj šibaj dalje"                                        ,
+    "getARoom"             : "BLJAK, NAĐITE SI SOBU"                                 ,
+    "notCoolAnymore"       : "ma šeširi nisu više u modi"                            ,
+    "tvOnTv"               : "TV... NA TV-u!"                                        ,
+    "cricky"               : "MALI CVRČKIĆ ♡"                                        ,
+    "tooManyCrickets"      : "dosta više sa cvrčcima"                                ,
+    "normalPeep"           : "ništa posebno kod ovog tipa"                           ,
+    "normalPeeps"          : "ništa zanimljivo, samo neki ljudi"                     ,
+    "wowNothing"           : "JEJ, NAŠAO SI NIŠTA"                                   ,
+    
+    // Act 2
+    "crazySquareAttacks"   : "LUDI KVADRAT NAPAO"                                    ,
+    "justMissed"           : "uuu fulo si za dlaku"                                  ,
+    "somethingInteresting" : "(trebaš naći nešto zanimljivo za TV...)"               ,
+    "whoIsScreaming"       : "(moraš slikati onog koji vrišti)"                      ,
+    "circleFearsSquares"   : "KRUGOVI SE BOJE KVADRATA"                              ,
+    "whoScaresThem"        : "(moraš slikati i onog koga se boje)"                   ,
+    "areTheyScared"        : "(moraš ih slikati dok su prestrašeni od strane kvadrata)", // not used
+    "squaresSnubCircles"   : "KVADRATI PREZIRU KRUGOVE"                              ,
+    "areTheySnubbed"       : "(moraš uhvatiti kako prezire nekoga)"                  , // not used
+    "everyoneHates"        : "SVI MRZE SVE!!!"                                       ,
+    "almostEveryoneHates"  : "GOTOVO SVI MRZE SVE..."                                ,
+    "squaresHateCircles"   : "KVADRATI MRZE KRUGOVE"                                 ,
+    "circlesHateSquares"   : "KRUGOVI MRZE KVADRATE"                                 ,
+    "areTheyYelling"       : "(moraš uhvatiti kako se deru na nekoga)"               ,
+    "nerdsNow"             : "što ti tikvani rade sad?"                              ,
+    "schockedPeep"         : "zašto je taj tip šokiran?"                             ,
+    "whatever"             : "kajgod"                                                ,
+    
+    // Act 3
+    "ellipsis"             : ". . ."                                                 ,
+    "coolNoMore"           : "šeširi više nisu u modi, zar nisi čuo?"                ,
+    "beScared"             : "PRESTRAVI SE. POLUDI."                                       ,
+    
+    // MANIFESTO
+    "manifesto" : [
+       //"as if you viewers want GOOD news"       ,
+       "koga briga kad se ljudi slažu?"           ,
+       "mir je dosadan. nasilje je viralno."      ,
+       //"peace is boring. conflict gets clicks." ,
+       "svaka priča treba sukob, tako da..."  ,
+       //"...GIVE THE AUDIENCE WHAT THEY WANT."   ,
+       "DAJMO PUBLICI ONO ŠTO ŽELI VIDJETI."
+    ] ,
+    
+    // -- Strings currently in graphics resources --
+    
+    // (bg_preload.png) Preload screen
+    "playingTime"        : "igra traje 5 minuta" ,
+    "warning"            : "upozorenje: ova igra sadrži\nscene prezira, nepristojnosti\ni masovnih ubojstava.\nbili ste upozoreni." ,
+    
+    // (cam-instructions.png) Camera Instructions
+    "pointAndClick"      : "NACILJAJ I KLIKNI" ,
+    
+    // (chyron3.png)
+    "chyronNothing"      : "JUPI, TO JE *NIŠTA*" ,
+    
+    // (credits0001.png)
+    "createdBy"          : "napravio" ,
+    "NickyCase"          : "Nicky Case" ,
+    
+    // (credits0002.png)
+    "manyThanks"         : "zahvaljujem testerima:" ,
+    
+    // (credits000[3,4,5,6].png)
+    "patreonSupporters"  : "i patreon podrživačima:" ,
+    
+    // (credits0007.png)
+    "lastButNotLeast"    : "te na kraju," ,
+    
+    // (credits0008.png)
+    "thankYouForPlaying" : "hvala VAMA što ste igrali!" ,
+    
+    // (preload_play.png)
+    "playButton"         : "PLAY" ,
+    
+    // (end_button.png) Post Credits
+    "otherWorkButton"    : "vidi što još radim" ,
+    "buyCoffeeButton"    : "kupi mi kavu" ,
+    "replayButton"       : "ponovi iskustvo" ,
+    
+    // (logo.png) Post Credits
+    "logoWBWWB"          : "PODIJELI PATNJU:" ,
+    
+    // (end_prototype.png)
+    "endOfPrototype"     : "END OF PROTOTYPE" ,
+    "toBeContinued"      : "(to be continued!)" ,
+    
+    // (quote0002.png)
+    "WBWWB"              : "Sami postajemo ono što gledamo." ,
+    "WSOTATOTSU"         : "Prvo mi oblikujemo naše alate, a zatim oni oblikuju nas." ,
+    
+    // (quote0003.png)
+    "MarshallMcLuhan"    : "Marshall McLuhan" ,
+    
+    // (quote0004.png)
+    "misatrributed"      : "(navodno)" ,
+};
 
-var textStrings = textStrings_EN
+var textStrings = textStrings_HR
