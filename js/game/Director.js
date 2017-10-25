@@ -321,7 +321,7 @@ function Director(scene){
         // SOUND?
 		var data = self.photoData;
 		var fail = false;
-		var nothing = data.ITS_NOTHING;
+		var nothing = false; //data.ITS_NOTHING;
 		if(!data.forceChyron){
 			if(data.audience==0 && !data.audienceCircles && !data.audienceSquares){
 
